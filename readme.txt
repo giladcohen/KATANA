@@ -1,4 +1,4 @@
-This repo reproduces all the reuslts shown in our paper.
+This repo reproduces all the reuslts shown in our paper: https://arxiv.org/abs/2109.08191
 Steps:
 
 1) Run in the project dir: source ./init_project.sh
