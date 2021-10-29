@@ -12,11 +12,9 @@ python src/select_val_test_inds.py
 
 3) Train DNNs for cifar10, cifar100, svhn, and tiny_imagenet using src/train.py.
 For example, for CIFAR-10 run:
-python src/train.py --dataset cifar10 --net resnet34 --checkpoint_dir /tmp/results/cifar10/resnet34/regular/resnet34_00
-                    --epochs 300 --patience 3 --cooldown 0
+python src/train.py --dataset cifar10 --net resnet34 --checkpoint_dir /tmp/results/cifar10/resnet34/regular/resnet34_00 --epochs 300 --patience 3 --cooldown 0
 And for the TRADES adversarial training run:
-python src/train.py --dataset cifar10 --net resnet34 --checkpoint_dir /tmp/results/cifar10/resnet34/adv_robust_trades
-                    --epochs 300 --patience 3 --cooldown 0 --adv_trades True
+python src/train.py --dataset cifar10 --net resnet34 --checkpoint_dir /tmp/results/cifar10/resnet34/adv_robust_trades --epochs 300 --patience 3 --cooldown 0 --adv_trades True
 If you wish also to reproduce results for the ensemble, train 9 more networks in:
 /tmp/results/cifar10/resnet34/regular/resnet34_01
 /tmp/results/cifar10/resnet34/regular/resnet34_02
