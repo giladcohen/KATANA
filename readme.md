@@ -1,3 +1,5 @@
+KATANA: Simple Post-Training Robustness Using Test Time Augmentations
+
 This repo reproduces all the reuslts shown in our paper: https://arxiv.org/abs/2109.08191
 Steps:
 
